@@ -88,7 +88,9 @@ delete meals.dinner; //will return as true if the value pair associated with 'di
 Object.assign({}, meals, { breakfast: ['oatmeal', 'banana'] });
     //returns a new copy of the meals object with the amended breakfast values; meals will still return the original values
     
-var playlist = {};
+var playlist = {
+  
+};
 
 function updatePlaylist(playlist, artistName, songTitle) {
   
