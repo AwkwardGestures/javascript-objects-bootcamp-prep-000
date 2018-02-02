@@ -96,7 +96,7 @@ var playlist = {
 }; //creates dynamic playlist
 
 function updatePlaylist(playlist, [artistName], [songTitle]) {
-  augment(playlist, `[newSong] 
+  augment(playlist, [newSong]) 
 }
 
 
