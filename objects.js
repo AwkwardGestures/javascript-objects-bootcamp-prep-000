@@ -85,5 +85,9 @@ recipe; //returns { flaxseedEggs: 3 }
 delete meals.dinner; //will return as true if the value pair associated with 'dinner'   
                      //in the meals object was deleted successfully
 
+Object.assign({}, meals, { breakfast: ['oatmeal', 'banana'] });
+    //returns a new copy of the meals object with the amended breakfast values; meals will still return the original values
+    
+
 
 
