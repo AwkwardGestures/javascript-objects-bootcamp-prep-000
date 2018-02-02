@@ -90,13 +90,12 @@ Object.assign({}, meals, { breakfast: ['oatmeal', 'banana'] });
 
 const artistName =  'artist';
 const songTitle = 'title';
-const newSong = [artistName]: [songTitle];
 var playlist = { 
   [artistName]: [songTitle]
-}; //creates dynamic playlist
+}; 
 
 function updatePlaylist(playlist, [artistName], [songTitle]) {
- return augment(playlist, [newSong]); 
+ return object; 
 }
 
 
