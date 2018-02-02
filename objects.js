@@ -82,7 +82,8 @@ updateObjectWithKeyAndValue(recipe, 'chocolate', '1 cup');
 
 recipe; //returns { flaxseedEggs: 3 }
 
+delete meals.dinner; //will return as true if the value pair associated with 'dinner'   
+                     //in the meals object was deleted successfully
 
-   
 
 
